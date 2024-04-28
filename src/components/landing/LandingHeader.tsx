@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import Button from '../common/button/Button';
 import styled from 'styled-components';
+import Button from '@/components/common/button/Button';
 import { BUTTON_TYPE } from '@/constants/BUTTON_TYPE';
 import MEDIA_QUERIES from '@/constants/MEDIAQUERIES';
 import landing from '@/public/image/landing.png';
